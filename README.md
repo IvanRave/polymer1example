@@ -2,6 +2,13 @@
 
 Polymer v1 example
 
+## Browser support
+
+- [Browser compatibility with the polyfills](https://www.polymer-project.org/1.0/docs/browsers)
+- [Polymer demos are not working in android stock browser](https://github.com/Polymer/polymer/issues/616)
+- [Polymer elements not rendering in Android 4.1.2 and 4.2.1. Works on 4.4.2](https://github.com/Polymer/polymer/issues/714)
+
+
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
