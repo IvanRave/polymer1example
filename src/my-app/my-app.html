@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html"/>
+<link rel="import" href="../my-view.html"/>
+<link rel="import" href="../../bower_components/paper-slider/paper-slider.html"/>
+
+<dom-module id="my-app">
+  <template>
+    <style>
+      :host {
+      display: block;
+      padding: 16px;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+    <my-view name="new-view"></my-view>
+    <paper-slider min="-100" max="100" value="50"></paper-slider>
+  </template>
+
+  <script>
+    Polymer({
+
+    is: 'my-app',
+
+    properties: {
+    prop1: {
+    type: String,
+    value: 'world',
+    },
+    },
+
+    });
+  </script>
+</dom-module>
